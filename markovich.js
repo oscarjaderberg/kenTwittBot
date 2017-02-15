@@ -28,7 +28,7 @@ function toArray(err, toFile){
         obj.table.push({ 
             id: shortid.generate(),
             time: Date.now(),
-            quote: lyrics.start(useUpperCase).end(Math.floor((Math.random() * 12) + 3)).process() + "."
+            quote: lyrics.start(useUpperCase).end(14).process() + "."
         });
         console.log(obj.table[i]);
     }
